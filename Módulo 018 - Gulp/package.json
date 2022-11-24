@@ -1,0 +1,27 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "Kit de ferramentas de automação de tarefas baseada em JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marcelo Cavalcante",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-image": "^6.3.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0",
+    "jquery": "^3.6.0"
+  }
+}
