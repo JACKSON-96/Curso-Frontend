@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+footer h5 {
+    padding: 400px;
+    color: #ffffff;
+    font-size: 1.6rem; }
+  
+                 /* cor da letra do rodape */
+    footer h5 {
+      color: #f80000;
+      box-sizing: border-box;}
