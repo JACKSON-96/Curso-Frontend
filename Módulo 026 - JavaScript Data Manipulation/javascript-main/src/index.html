@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <div id="main"></div>
+
+    <div id="app">
+        {{ message }}
+        modulo finalizado {{ nome }}
+
+        <span v-bind:title="message2">
+            sim ou nao ?
+        </span>
+
+        <span v-if="seen">jackson</span>
+    </div>
+
+    <script src="./exams.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello meu nome e Jackson',
+                    nome: 'Jackson Henrique',
+                    message2: 'começando a entender ' + new Date().toLocaleString(),
+                    seen: true
+                }
+            })
+    </script>
+</body>
+</html>
