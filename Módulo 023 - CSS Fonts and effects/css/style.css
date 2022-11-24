@@ -1,0 +1,221 @@
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/styles.scss ***!
+  \***************************************************************************************************************/
+  
+  /*!*******************************************************************************************************************!*\
+    !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/styles.scss (1) ***!
+    \*******************************************************************************************************************/
+    @import url(https://fonts.googleapis.com/css2?family=Fruktur&display=swap);
+    @font-face {
+    font-family: 'freshman';
+    src: url(5156bdfd5ba907ec8ffd.woff2) format("woff2"), url(3504eec461704192ac62.woff) format("woff"), url(5803b057e077e9b56637.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal; }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center; }
+
+           /* cor da letra sem passa o mause */
+    .nav__item {
+      color: #ffffff;
+      font-size: 1.8rem;
+      text-decoration: none;
+      position: relative; }
+
+       /* cor da letra quando passa o mause */
+      .nav__item:hover {
+        color: #ff0808;
+        animation: toTop;
+        animation-duration: 1s; }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth; }
+  
+     /* cor do fundo do site*/
+  body {
+    background-color: #130b0b;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; }
+
+    h1 {
+      padding: 1rem 0 0;
+      text-align: center;
+      width: 100%;
+  }
+
+         /* cor da letra abaixo do balao */
+  h1 {
+    color: #f70c0c;
+    text-align: center;
+    margin-top: -4rem; }
+  
+           /* cor das letras maiores */
+  article h1 {
+    color: #f52020;
+    font-size: 3rem;
+    text-align: left; }
+  
+
+  h2 {
+    color: #fd0a0a;
+    font-family: 'freshman', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 4rem;
+    text-shadow: 1px 2px 8px #f30808; }
+  
+  #root,
+  header,
+  section,
+  footer {
+    display: block;
+    float: left;
+    width: 100%; }
+  
+  section {
+    padding: 4rem 0;
+    margin: 0; }
+  
+  .container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw; }
+  
+  @keyframes toTop {
+    from {
+      top: 0; }
+    to {
+      top: -1rem; } }
+  
+  header .container {
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap; }
+
+    /* imagem balao */
+    header .container .hero {
+      align-items: flex-end;
+      background-image: url(5105048f7608d5ff6570.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      height: 45rem;
+      display: flex;
+      padding-bottom: 4rem;
+      width: 100%; }
+
+      header .container .hero h1 {
+        padding: 1rem 0 0;
+        text-align: center;
+        width: 100%; }
+  
+  #sobre {
+    background-color: none; }
+
+           /* cor do fundo da letra abaixo do balao */
+    #sobre .container {
+      background-color: rgb(36, 36, 39);
+      border-radius: .5rem;
+      margin: 2rem auto;
+      padding: 0 2rem 2rem; }
+
+             /* cor da letra abixo do sobre nos */
+    #sobre article p {
+      font-size: 1.6rem;
+      color: #ffffff; }
+  
+             /* cor do fundo do catalago */
+  #produtos {
+    background-color: #000000; }
+  
+  .vitrine {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem; }
+
+                 /* cor do fundo da borda do catalago */
+    .vitrine__item {
+      background-color: rgb(255, 255, 255);
+      border-radius: 1rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 20rem;
+      padding: 1rem;
+      position: relative; }
+
+                   /* cor do fundo do catalago quando passa o mause*/
+      .vitrine__item:hover {
+        animation: toTop;
+        animation-duration: 1s;
+        box-shadow: 0 0 2px 2px rgb(47, 0, 255); }
+
+    .vitrine__image {
+      justify-content: center;
+      display: flex;
+      width: 100%; }
+
+                   /* cor da letra do fundo do catalago */
+    .vitrine__title {
+      font-size: 2rem;
+      color: #ff0000;
+      text-align: center;
+      width: 100%; }
+
+                   /* cor da letra pequena do fundo do catalago */
+    .vitrine__desc {
+      color: #080808;
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+      padding: 0 1rem; }
+
+    .vitrine__button {
+      box-shadow: 0 0 2px 2px rgba(0, 150, 255, 0.2);
+      background-color: #195484;
+      border-radius: 1rem;
+      border: 1px solid #195484;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 1rem 2rem;
+      font-size: 1.6rem;
+      text-decoration: none;
+      align-self: center;
+      margin-bottom: 2rem; }
+
+                   /* cor do fundo das bordas */
+      .vitrine__button:hover {
+        box-shadow: 0 0 2px 2px #fa0303; }
+  
+                     /* cor do fundo do como funciona */
+  #como-funciona {
+    background: #ffffff; }
+  
+  .steps {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; }
+
+    .steps__item {
+      margin: 1rem;
+      width: calc(80% / 5 - 1rem);
+      text-align: center; }
+      
+      .steps__item span {
+        color: #f80909; }
+  
+  footer p {
+    color: #ffffff;
+    font-size: 1.6rem; }
+
+                 /* cor da letra do rodape */
+    footer p a {
+      color: #f80000; }
+  
+  

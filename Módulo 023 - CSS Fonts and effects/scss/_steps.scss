@@ -1,0 +1,20 @@
+#como-funciona {
+    background: $font-color-primary;
+}
+
+.steps {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    &__item {
+        margin: 1rem;
+        text-align: center;
+        span {
+            color: $color-secondary;
+        }
+    }
+
+}
