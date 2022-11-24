@@ -1,0 +1,2 @@
+index.js NAO ALTERA
+main.js ALTERA TUDO
