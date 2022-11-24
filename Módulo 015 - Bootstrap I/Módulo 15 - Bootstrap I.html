@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="container"> 
+        <img id="logo" alt="logo" width="110" height="40" src="https://ebaconline.com.br/_nuxt/d58908d198123d3c50c18638f58abb26.svg" class="not-lazy">
+      </div>
+    </header>
+
+    
+    
+    <section class="container">
+
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="./imagens/002.jpg" alt="tela do pc">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagens/001.jpg" alt="Foto do teclado">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagens/html.png" alt="html">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1>Jackson </h1>
+          <h6>Aluno - EBAC</h6>
+          <p>Aluno desde 2022, de full stack python</p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img src="./imagens/001.jpg" alt="Foto do teclado">
+        </div>
+      </div>
+
+      <h2>Habilidades</h2>
+      <div class="row">
+        <div class="col">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="./imagens/html.png" class="html" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">html</h5>
+              <p class="card-text">Básico.</p>
+              <a href="#" class="btn btn-primary">IrIr para html</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./imagens/css.png" class="css" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">css</h5>
+              <p class="card-text">Básico.</p>
+              <a href="#" class="btn btn-primary">Ir para css</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src= "./imagens/js.png" height= class="js" alt="...">
+            <div class="card-body">
+              <h5 class="Teclado">js</h5>
+              <p class="card-text">Básico.</p>
+              <a href="#" class="btn btn-primary">Ir para js</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <h2>Formação</h2>
+      <div class="row">
+        <div class="col">
+          <div class="accordion" id="meuacordeon">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Publicidade
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>Trabalho com logistica</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne"> 
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Sistemas de Informação
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+                <div class="accordion-body">
+                  <p>íniciante</p>
+                  
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <center>
+      <footer>
+          <div class="container">
+              <h5>&copy; Todos os direitos reservados. <br>
+                  <small>Desenvolvido por: <a href="https://github.com/JACKSON-96/curso-frontend">Jackson Henrique</a>.</small></h5>
+              </div>
+          </footer>
+      </center>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script>
+      console.log('hello world')
+    </script>
+  </body>
+</html>
