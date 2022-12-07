@@ -1,0 +1,166 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+    background-color: #d9d9d9;
+}
+footer h5 {
+    color: #ffffff;
+    font-size: 1.6rem; }
+  
+                 /* cor da letra do rodape */
+    footer h5 {
+      color: #f80000;
+      box-sizing: border-box;}
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+div,
+p {
+  display: block;
+}
+
+header,
+section,
+footer {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+section {
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+p {
+  color: rgb(5, 1, 1);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+h1 {
+  color: rgb(233, 19, 19);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  color: #999;
+  font-size: 2.2rem;
+}
+
+h3 {
+  color: #f00;
+  font-size: 1.5rem;
+}
+
+header,
+footer {
+  background-color: #ddd;
+}
+
+.blocks {
+  padding: 3rem 0;
+}
+.blocks h2 {
+  color: rgb(224, 18, 18);
+}
+.blocks ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 1rem 0;
+  width: 100%;
+}
+.blocks li {
+  color: #999;
+  display: block;
+  margin: 1.5rem auto;
+  width: 30%;
+}
+.blocks li .img-container {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.blocks li a {
+  background-color: rgb(223, 16, 16);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 2.2rem;
+  margin: 3rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cars h2 {
+  color: #999;
+}
+.cars li {
+  color: #222;
+}
+.cars li a {
+  background-color: #444;
+}
+
+.destack {
+  background-color: #222;
+  padding: 1.5rem;
+}
+.destack h1 {
+  color: #f00;
+  float: left;
+  font-size: 3rem;
+  margin-top: 0;
+}
+.destack h2 {
+  float: left;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+.destack img {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+.destack p {
+  font-size: 1.5rem;
+  color: rgb(91, 255, 85);
+  padding: 2rem 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
