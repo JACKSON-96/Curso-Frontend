@@ -1,0 +1,78 @@
+#lo{
+    position: relative;
+    width: auto;
+    height:auto;
+    background-color: #f10962;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-block-end: 20px; 
+}
+
+.menu{
+    display:flex;
+    width: auto;
+    height:auto;
+    background: rgb(16, 240, 248);
+}
+#cp1{
+    width: auto;
+    height:auto;
+    background-color: #2009f1;
+    padding-top:3px;
+    padding-left:3px; 
+    padding-right:3px;
+    padding-block-end: 3px; 
+    justify-content:right; 
+    justify-items: right;
+    justify-self: right;
+}
+.class{
+    width: auto;
+    height:auto;
+}
+
+.div{
+    width: auto;
+    height:auto;
+}
+
+body{
+    background: black;
+    width: auto;
+    height:auto;
+}
+
+p,h2{
+    width: auto;
+    height:auto;
+    background-color: rgb(202, 236, 7);
+    padding-left: 50px;
+}
+
+/* borda das fotos*/
+#a22{
+    width: auto;
+    height:auto;
+    background-color: #07f556;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-block-end: 20px;
+}
+
+/* borda do saiba mais*/
+#b22{
+    width: auto;
+    height:auto;
+    background-color: cadetblue;
+}
+
+#conteiner{
+    width: auto;
+    height:auto;
+    background: darkgrey;
+    display: flex;
+    justify-content:baseline; 
+    padding-left: 1px;
+}
