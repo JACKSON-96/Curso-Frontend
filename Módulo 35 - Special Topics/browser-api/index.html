@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Browser API</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <section>
+            <h2>Drag And Drop</h2>
+            <h5>traduçao</h5>
+            <h2>Arrastar E Soltar</h2>
+            <p>Exemplo: <br>
+              Com essa funcionalidade, portanto, o usuário pode selecionar elementos arrastáveis com o mouse, arrastar elementos até um elemento soltável, também chamado de droppable, e soltar o elemento ao soltar o botão do mouse.</p>
+
+            <div class="parent">
+                <div class="origin dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>To-Do</h4>
+                    <div id="drag-1" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Item 1
+                    </div>
+                    <div id="drag-2" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Item 2
+                    </div>
+                    <div id="drag-3" class="draggable" draggable="true"
+                        ondragstart="dragStart(event)">Item 3
+                    </div>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Doing</h4>
+                </div>
+                <div class="dropzone"
+                    ondragover="dragOver(event)"
+                    ondrop="drop(event)">
+                    <h4>Feito</h4>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Canvas and SVG</h2>
+            <h5>Traduçao</h5>
+            <h2>Tela E SVG</h2>
+            <p>Exemplo: <br>
+              Diferenças entre &lt;svg&gt; e &lt;canvas&gt;
+Tanto &lt;svg&gt; quanto &lt;canvas&gt; criam contextos gráficos dentro do navegador. A diferença primordial entre eles é que o contexto de &lt;svg&gt; é vetorial, enquanto o de &lt;canvas&gt; é bitmap.
+
+</p>
+            <canvas id="canvas"></canvas>
+
+            <svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="600 60 500 50 70 1150 75 130 80 125 85 140 90 135 95 150 100 145 900 1000" stroke="orange" fill="transparent" stroke-width="5"/>
+            </svg>
+
+        </section>
+
+        <section>
+            <h2>Geolocation</h2>
+            <h5>Traduçao</h5>
+            <h2>geolocalização</h2>
+            <p>Exemplo: <br>
+                é um recurso que permite identificar a posição geográfica de objetos e pessoas com base em coordenadas via satélite emitidas por sinais de internet (WiFi), radiofrequência, GPS e AGPS
+</p>
+<h2> </h2>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="" name="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+        </section>
+
+        <section>
+            <h2> Notifications</h2>
+            <button onclick=getNotifications() >Quero receber notificações.</button>
+        </section>
+    
+    </div>
+
+    <script src="./js/scripts.js"></script>
+    <script src="./js/geolocation.js"></script>
+    <script src="./js/notification.js"></script>
+</body>
+</html>
